@@ -1,102 +1,160 @@
+:root {
+  --brand-color: #2196F3;
+  --title-color: #212121;
+  --description-color: #757575;
+}
 body {
-position: relative;
-width: 1600px;
-height: 2349px;
-
-background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    color: var(--title-color);
 }
-
-header {
-position: absolute;
-width: 1600px;
-height: 80px;
-left: 0px;
-top: 0px;
-
-background: #FFFFFF;
-}
-
-nav {
-position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
-
-/* background: #2F303A; */
+.button {
+    cursor : pointer;
+    font-family : inherit;
 }
 .logo {
-    position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-
-letter-spacing: 0.03em;
-
-color: #000000, #2196F3;
+    font-family : "Raleway";
+    font-weight : 700;
+    font-size : 26px;
+    line-height : 1.17;
 }
-.mail {
-position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
+.link {
+    text-decoration : none;
+    color : inherit;
+}
+.link:hover {
+  color: var(--brand-color);
+}
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #2196F3;
+.logo-blue {
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    color: var(--brand-color);
+    text-decoration: none;
+}
+.logo-black {
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    color: #000000;
+    list-style: none;
+    text-decoration: none;
+}
+/* .navigation {
+    
+} */
+.list {
+    list-style: none;
+}
+.agencja {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    color: var(--title-color);
+    text-decoration: none;
+}
+.portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    color: var(--title-color);
+    text-decoration: none;
+}
+.kontakt {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    color: var(--title-color);
+    text-decoration: none;
+}
+.mail { 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--description-color);
+    text-decoration: none;
 }
 .tel {
-position: absolute;
-width: 110px;
-height: 16px;
-left: 1263px;
-top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--description-color);
+    text-decoration: none;
+}
+.container-1 {
+    background: #2F303A;
+}
+.primary-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.button-order {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #FFFFFF;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #757575;
+    background: var(--brand-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.fourth-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 11.14;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+.description {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--description-color);
+}
+.secondary-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--title-color);
+}
+.container-2 {
+    background: #F5F4FA;
 }
 
-h1 {
-position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
-/* color: #FFFFFF; */
-
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--title-color);
 }
-.naszeatuty {
-position: absolute;
-width: 1170px;
-height: 101px;
-left: 215px;
-top: 774px;
+.job-title {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--description-color);
+}
+
+.box{
+    background: #FFFFFF;
+    width: 270px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.footer {
+    background: #2F303A;
+}
+.address {
+    font-style: normal;
+}
+.street {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
 }
