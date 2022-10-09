@@ -32,6 +32,7 @@ body {
     line-height: 1.19;
     color: var(--brand-color);
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 .logo-black {
     font-family: 'Raleway';
@@ -41,6 +42,7 @@ body {
     color: #000000;
     list-style: none;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 /* .navigation {
     
@@ -54,6 +56,7 @@ body {
     line-height: 1.14px;
     color: var(--title-color);
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .portfolio {
     font-weight: 500;
@@ -61,6 +64,7 @@ body {
     line-height: 1.14px;
     color: var(--title-color);
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .kontakt {
     font-weight: 500;
@@ -68,6 +72,7 @@ body {
     line-height: 1.14px;
     color: var(--title-color);
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .mail { 
     font-weight: 500;
@@ -75,6 +80,7 @@ body {
     line-height: 1.14;
     color: var(--description-color);
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .tel {
     font-weight: 500;
@@ -82,6 +88,7 @@ body {
     line-height: 1.14;
     color: var(--description-color);
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .container-1 {
     background: #2F303A;
@@ -91,6 +98,7 @@ body {
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
 }
@@ -98,6 +106,10 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     color: #FFFFFF;
 
     background: var(--brand-color);
@@ -108,12 +120,14 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 11.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-color);
 }
 .description {
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--description-color);
 }
 .secondary-title {
@@ -121,6 +135,7 @@ body {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    letter-spacing: 0.03em;
     color: var(--title-color);
 }
 .container-2 {
@@ -132,12 +147,14 @@ body {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    letter-spacing: 0.03em;
     color: var(--title-color);
 }
 .job-title {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    letter-spacing: 0.03em;
     color: var(--description-color);
 }
 
@@ -156,5 +173,35 @@ body {
 .street {
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+.button-filters {
+    background: #F5F4FA;
+    border-radius: 4px;
+    border-color: #F5F4FA;;
+}
+.button-filters:hover {
+    background-color: var(--brand-color);
+    color:#FFFFFF;
+}
+.box-2 {
+    box-sizing: border-box;
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.thirdry-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+.description-2 {
+    font-size: 16px;
+    line-height: 2.25;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
