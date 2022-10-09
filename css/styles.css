@@ -50,7 +50,7 @@ body {
 .list {
     list-style: none;
 }
-.agencja {
+.agency {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14px;
@@ -66,7 +66,7 @@ body {
     text-decoration: none;
     letter-spacing: 0.02em;
 }
-.kontakt {
+.contact {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14px;
